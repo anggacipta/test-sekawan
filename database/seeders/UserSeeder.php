@@ -17,16 +17,16 @@ class UserSeeder extends Seeder
 
         User::factory()->create([
             'nama' => 'Atasan',
-            'username' => 'atasan2',
-            'email' => 'atasan2@example.com',
+            'username' => 'atasan',
+            'email' => 'atasan@example.com',
             'password' => bcrypt('password'), // 'password
             'role' => 'atasan',
         ]);
 
         User::factory()->create([
             'nama' => 'Admin',
-            'username' => 'admin2',
-            'email' => 'admin2@example.com',
+            'username' => 'admin',
+            'email' => 'admin@example.com',
             'password' => bcrypt('password'), // 'password
             'role' => 'admin',
         ]);
